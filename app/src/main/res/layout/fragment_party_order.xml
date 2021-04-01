@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorLightShadow"
+    tools:context=".fragmets.PartyOrderFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/colorWhite"
+            android:padding="@dimen/activity_horizontal_margin"
+            android:text="Are you planning a house party?"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+            android:textColor="@color/colorBlack" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/colorWhite"
+            android:paddingLeft="@dimen/activity_horizontal_margin"
+            android:paddingRight="@dimen/activity_horizontal_margin"
+            android:text="Celebrating your little one’s birthday or calling friends and family over for dinner?"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+            android:textColor="@color/colorBlack" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/colorWhite"
+            android:padding="@dimen/activity_horizontal_margin"
+            android:text="With VCH around the corner, never worry about food. Choose from our elaborate menu, from pasta to paneer, we’ve got your back! Want something that’s not on the menu? Just fill in the form, we will get in touch and discuss the details with you."/>
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="@dimen/activity_horizontal_margin">
+
+    <EditText
+        android:id="@+id/name_ET"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/white_solid_rounded_bg"
+        android:drawablePadding="10dp"
+        android:hint="Name*"
+        android:inputType="textPersonName"
+        android:padding="10dp"
+        android:singleLine="true"
+        android:textColor="@color/colorBlack"
+        android:textColorHint="#90000000" />
+    <EditText
+        android:id="@+id/mobile_ET"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/white_solid_rounded_bg"
+        android:drawablePadding="10dp"
+        android:hint="Mobile*"
+        android:maxLength="10"
+        android:inputType="number"
+        android:padding="10dp"
+        android:singleLine="true"
+        android:layout_marginTop="@dimen/activity_horizontal_margin"
+        android:textColor="@color/colorBlack"
+        android:textColorHint="#90000000" />
+    <EditText
+        android:id="@+id/email_ET"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/white_solid_rounded_bg"
+        android:drawablePadding="10dp"
+        android:hint="Email*"
+        android:inputType="textEmailAddress"
+        android:padding="10dp"
+        android:singleLine="true"
+        android:layout_marginTop="@dimen/activity_horizontal_margin"
+        android:textColor="@color/colorBlack"
+        android:textColorHint="#90000000" />
+    <EditText
+        android:id="@+id/message_ET"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/white_solid_rounded_bg"
+        android:drawablePadding="10dp"
+        android:hint="Message*"
+        android:inputType="textCapSentences"
+        android:padding="10dp"
+        android:layout_marginTop="@dimen/activity_horizontal_margin"
+        android:textColor="@color/colorBlack"
+        android:textColorHint="#90000000" />
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/submit_BT"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="32dp"
+        android:background="@drawable/primary_solid_rounded_bg"
+        android:text="Submit"
+        android:textColor="@color/colorWhite" />
+
+</LinearLayout>
+
+
+    </LinearLayout>
+</ScrollView>

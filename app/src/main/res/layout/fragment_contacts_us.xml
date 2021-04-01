@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fragmets.ContactsUsFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/activity_horizontal_margin"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Get In Touch With Us"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
+            android:textColor="@color/colorPrimary" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="We are available 24X7, e-mail or by phone. You can also use our quick contact form to ask a question about our services that we offer on a regular basis. We would be pleased to answer your questions."
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Small" />
+
+        <!--<TextView
+            android:id="@+id/tvPhone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/activity_horizontal_margin"
+            android:text="Phone: (0731) - 253 0256"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium" />-->
+
+        <LinearLayout
+            android:id="@+id/tvPhone"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="10dp">
+
+            <ImageView
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_gravity="center_horizontal"
+                android:background="@drawable/icon_contact"
+                android:backgroundTint="@color/colorPrimary"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="0731-2530256"
+                android:textColor="#000"
+                android:textSize="16dp"
+                android:layout_marginLeft="10dp"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/tvEmail"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="10dp">
+
+            <ImageView
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_gravity="center_horizontal"
+                android:background="@drawable/icon_email"
+                android:backgroundTint="@color/colorPrimary"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="vijaychaathouse@gmail.com"
+                android:textColor="#000"
+                android:textSize="16dp"
+                android:layout_marginLeft="10dp"/>
+
+        </LinearLayout>
+
+        <!--<TextView
+            android:id="@+id/tvEmail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Email: vijaychaathouse@gmail.com"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium" />
+-->
+
+        <EditText
+            android:id="@+id/name_ET"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/activity_horizontal_margin"
+            android:background="@drawable/edit_text_bg"
+            android:hint="Name*"
+            android:inputType="textPersonName"
+            android:padding="10dp"
+            android:scrollbars="vertical"
+            android:singleLine="true"
+            android:textColor="@color/edit_text_color" />
+
+        <EditText
+            android:id="@+id/mobile_ET"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/activity_horizontal_margin"
+            android:background="@drawable/edit_text_bg"
+            android:hint="Mobile*"
+            android:maxLength="10"
+            android:inputType="number"
+            android:padding="10dp"
+            android:scrollbars="vertical"
+            android:singleLine="true"
+            android:textColor="@color/edit_text_color" />
+
+        <EditText
+            android:id="@+id/email_ET"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/activity_horizontal_margin"
+            android:background="@drawable/edit_text_bg"
+            android:hint="Email*"
+            android:inputType="textEmailAddress"
+            android:padding="10dp"
+            android:scrollbars="vertical"
+            android:singleLine="true"
+            android:textColor="@color/edit_text_color" />
+
+        <EditText
+            android:id="@+id/message_ET"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/activity_horizontal_margin"
+            android:background="@drawable/edit_text_bg"
+            android:hint="Message*"
+            android:inputType="text"
+            android:maxLines="4"
+            android:padding="10dp"
+            android:scrollbars="vertical"
+            android:singleLine="true"
+            android:textColor="@color/edit_text_color" />
+
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/submit_btn"
+            style="@style/TextAppearance.AppCompat.Medium"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="32dp"
+            android:background="@drawable/primary_solid_rounded_bg"
+            android:text="Send Message"
+            android:textColor="@color/colorWhite"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+</ScrollView>

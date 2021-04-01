@@ -1,0 +1,25 @@
+<resources>
+    <!--
+    TODO: Before you run your application, you need a Google Maps API key.
+
+    To get one, follow this link, follow the directions and press "Create" at the end:
+
+    https://console.developers.google.com/flows/enableapi?apiid=maps_android_backend&keyType=CLIENT_SIDE_ANDROID&r=72:41:0C:24:EE:9F:FC:A9:90:8A:26:B2:44:17:99:F8:82:03:3E:64%3Bcom.hungrybird.activities
+
+    You can also add your credentials to an existing key, using these values:
+
+    Package name:
+    72:41:0C:24:EE:9F:FC:A9:90:8A:26:B2:44:17:99:F8:82:03:3E:64
+
+    SHA-1 certificate fingerprint:
+    72:41:0C:24:EE:9F:FC:A9:90:8A:26:B2:44:17:99:F8:82:03:3E:64
+
+    Alternatively, follow the directions here:
+    https://developers.google.com/maps/documentation/android/start#get-key
+
+    Once you have your key (it starts with "AIza"), replace the "google_maps_key"
+    string in this file.
+    -->
+   <!-- <string name="google_maps_key" templateMergeStrategy="preserve" translatable="false">AIzaSyA3RHIha7amdA1miCZYeVNrLItB7gdnY7k</string>
+   --> <string name="google_maps_key" templateMergeStrategy="preserve" translatable="false">AIzaSyAm6cgddaokQMNWHGwcitYolkUivMPULE0</string>
+</resources>

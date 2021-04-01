@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+<LinearLayout
+    android:id="@+id/left_LL"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:visibility="visible"
+    android:layout_marginLeft="@dimen/activity_horizontal_margin"
+    android:layout_marginTop="@dimen/activity_horizontal_margin">
+    <androidx.cardview.widget.CardView
+        android:layout_width="0dp"
+        android:layout_weight=".3"
+        android:layout_height="150dp"
+        android:layout_marginRight="@dimen/activity_horizontal_margin">
+        <TextView
+            android:id="@+id/left_TV"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Light Bites"
+            android:textColor="@color/colorWhite"
+            android:textStyle="bold"
+            android:textAppearance="@style/TextAppearance.AppCompat.Headline"
+            android:background="@color/colorPrimary"
+
+            android:gravity="center"/>
+    </androidx.cardview.widget.CardView>
+    <androidx.cardview.widget.CardView
+        android:layout_width="0dp"
+        android:layout_weight=".7"
+        android:layout_height="150dp"
+        android:layout_marginRight="@dimen/activity_horizontal_margin">
+        <ImageView
+            android:id="@+id/left_IV"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/combo_meals"/>
+    </androidx.cardview.widget.CardView>
+</LinearLayout>
+    <LinearLayout
+        android:id="@+id/right_LL"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:visibility="visible"
+        android:layout_marginLeft="@dimen/activity_horizontal_margin"
+        android:layout_marginTop="@dimen/activity_horizontal_margin">
+        <androidx.cardview.widget.CardView
+            android:layout_width="0dp"
+            android:layout_weight=".7"
+            android:layout_height="150dp"
+            android:layout_marginRight="@dimen/activity_horizontal_margin">
+            <ImageView
+                android:id="@+id/right_IV"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/beverage"/>
+        </androidx.cardview.widget.CardView>
+        <androidx.cardview.widget.CardView
+            android:layout_width="0dp"
+            android:layout_weight=".3"
+            android:layout_height="150dp"
+            android:layout_marginRight="@dimen/activity_horizontal_margin">
+            <TextView
+                android:id="@+id/right_TV"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Light Bites"
+                android:textStyle="bold"
+                android:textAppearance="@style/TextAppearance.AppCompat.Headline"
+                android:textColor="@color/colorWhite"
+                android:background="@color/colorPrimary"
+
+                android:gravity="center"/>
+        </androidx.cardview.widget.CardView>
+
+    </LinearLayout>
+</LinearLayout>

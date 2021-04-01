@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg"
+    tools:context=".fragmets.LoginFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/profile_CIV"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:layout_marginTop="32dp"
+
+            android:src="@drawable/default_user" />
+
+        <EditText
+            android:id="@+id/name_ET"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:background="@drawable/edit_text_bg"
+            android:drawableLeft="@drawable/ic_user_black"
+            android:drawablePadding="10dp"
+            android:hint="Name..."
+            android:inputType="textPersonName"
+            android:padding="10dp"
+            android:singleLine="true"
+            android:textColor="@color/edit_text_color"
+            android:textColorHint="@color/edit_text_color" />
+
+        <EditText
+            android:id="@+id/email_ET"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:background="@drawable/edit_text_bg"
+            android:drawableLeft="@drawable/ic_mail_black"
+            android:drawablePadding="10dp"
+            android:hint="Email..."
+            android:inputType="textEmailAddress"
+            android:padding="10dp"
+            android:singleLine="true"
+            android:textColor="@color/edit_text_color"
+            android:textColorHint="@color/edit_text_color" />
+
+        <EditText
+            android:id="@+id/mobile_ET"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:background="@drawable/edit_text_bg"
+            android:drawableLeft="@drawable/ic_phone_black"
+            android:drawablePadding="10dp"
+            android:hint="Mobile Number..."
+            android:inputType="number"
+            android:maxLength="10"
+            android:padding="10dp"
+            android:singleLine="true"
+            android:textColor="@color/edit_text_color"
+            android:textColorHint="@color/edit_text_color" />
+
+        <EditText
+            android:id="@+id/password_ET"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:background="@drawable/edit_text_bg"
+            android:drawableLeft="@drawable/ic_password_black"
+            android:drawablePadding="10dp"
+            android:hint="Password..."
+            android:inputType="textWebPassword"
+            android:padding="10dp"
+            android:singleLine="true"
+            android:textColor="@color/edit_text_color"
+            android:textColorHint="@color/edit_text_color" />
+
+        <EditText
+            android:id="@+id/confirm_password_ET"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:background="@drawable/edit_text_bg"
+            android:drawableLeft="@drawable/ic_password_black"
+            android:drawablePadding="10dp"
+            android:hint="Confirm Password..."
+            android:inputType="textWebPassword"
+            android:padding="10dp"
+            android:singleLine="true"
+            android:textColor="@color/edit_text_color"
+            android:textColorHint="@color/edit_text_color" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/colorWhite"
+            android:layout_marginTop="10dp"
+            android:text="Have a Referral Code(Optional)" />
+
+        <EditText
+            android:id="@+id/referal_code_ET"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:background="@drawable/edit_text_bg"
+            android:drawablePadding="10dp"
+            android:hint="Referral Code..."
+            android:maxLength="4"
+            android:padding="10dp"
+            android:singleLine="true"
+            android:textColor="@color/edit_text_color"
+            android:textColorHint="@color/edit_text_color" />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <CheckBox
+                android:id="@+id/policy_CB"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:buttonTint="@color/colorWhite"
+                android:textColor="@color/colorWhite"
+                android:text="I agree with hungry bird "/>
+            <TextView
+                android:id="@+id/policy_Tv"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#3B8CD7"
+                android:text=" Terms and Conditions"/>
+        </LinearLayout>
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/submit_BT"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="32dp"
+            android:layout_marginRight="32dp"
+            android:layout_marginTop="16dp"
+            android:background="@drawable/primary_solid_rounded_bg"
+            android:text="Sign up"
+            android:textColor="@color/colorWhite" />
+
+
+    </LinearLayout>
+
+</ScrollView>

@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:id="@+id/grp1" android:checkableBehavior="single" >
+        <item
+            android:id="@+id/nav_home"
+            android:title="Home" />
+    </group>
+
+    <group android:id="@+id/grp2" android:checkableBehavior="single" >
+        <item
+            android:id="@+id/nav_aboutus"
+            android:title="About Us" />
+    </group>
+
+
+    <group android:id="@+id/grp3" android:checkableBehavior="single" >
+        <item
+            android:id="@+id/nav_order_history"
+            android:title="Order History" />
+    </group>
+    <group android:id="@+id/grp4" android:checkableBehavior="single" >
+        <item
+            android:id="@+id/nav_tiffin_box"
+            android:title="Tiffin Box" />
+    </group>
+    <group android:id="@+id/grp10" android:checkableBehavior="single" >
+        <item
+            android:id="@+id/nav_party_order"
+            android:title="Party Order" />
+    </group>
+    <group android:id="@+id/grp6" android:checkableBehavior="single" >
+        <item
+            android:id="@+id/nav_my_address"
+            android:title="My Address" />
+    </group>
+    <group android:id="@+id/grp11" android:checkableBehavior="single" >
+        <item
+            android:id="@+id/nav_contact_us"
+            android:title="Contact Us" />
+    </group>
+
+    <group android:id="@+id/grp12" android:checkableBehavior="single" >
+        <item
+            android:id="@+id/nav_privacy_policy"
+            android:title="Privacy Policy" />
+    </group>
+
+    <group android:id="@+id/grp13" android:checkableBehavior="single" >
+        <item
+            android:id="@+id/nav_shipping_policy"
+            android:title="Shipping Policy" />
+    </group>
+
+
+    <group android:id="@+id/grp7" android:checkableBehavior="single" >
+        <item
+            android:id="@+id/nav_refer_n_earn"
+            android:title="Refer And Earn" />
+    </group>
+    <group android:id="@+id/grp8" android:checkableBehavior="single" >
+        <item
+            android:id="@+id/nav_loyalty_program"
+            android:title="My Reward Points" />
+    </group>
+
+    <group android:id="@+id/grp14" android:checkableBehavior="single" >
+        <item
+            android:id="@+id/nav_terms_conditions"
+            android:title="Terms &amp; Conditions" />
+    </group>
+
+    <group android:id="@+id/grp9" android:checkableBehavior="single" >
+        <item
+            android:id="@+id/nav_sign_out"
+            android:title="Sign Out" />
+    </group>
+
+
+</menu>

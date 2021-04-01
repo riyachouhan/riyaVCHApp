@@ -1,0 +1,148 @@
+<ScrollView android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:id="@+id/add_address_LL"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:visibility="visible"
+        >
+
+        <RadioGroup
+            android:id="@+id/label_RG"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/activity_horizontal_margin"
+            android:orientation="horizontal">
+            <RadioButton
+                android:id="@+id/home_RB"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="Home"
+                android:checked="true"
+                android:layout_weight=".3"/>
+            <RadioButton
+                android:id="@+id/office_RB"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="Office"
+                android:layout_weight=".3"/>
+            <RadioButton
+                android:id="@+id/other_RB"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="Other"
+                android:layout_weight=".3"/>
+        </RadioGroup>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Location"
+            android:layout_marginLeft="10dp"/>
+        <AutoCompleteTextView
+            android:id="@+id/et_location"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/white_solid_rounded_bg"
+            android:drawablePadding="10dp"
+            android:hint="Enter location..."
+            android:inputType="textPersonName"
+            android:padding="10dp"
+            android:singleLine="true"
+            android:textColor="@color/colorBlack"
+            android:textColorHint="#90000000" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Name"
+            android:layout_marginLeft="10dp"/>
+        <EditText
+            android:id="@+id/name_ET"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/white_solid_rounded_bg"
+            android:drawablePadding="10dp"
+
+            android:inputType="textPersonName"
+            android:padding="10dp"
+            android:singleLine="true"
+            android:textColor="@color/colorBlack"
+            android:textColorHint="#90000000" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Mobile"
+            android:layout_marginTop="16dp"
+            android:layout_marginLeft="10dp"/>
+        <EditText
+            android:id="@+id/mobile_ET"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:background="@drawable/white_solid_rounded_bg"
+            android:drawablePadding="10dp"
+
+            android:inputType="number"
+            android:maxLength="10"
+            android:padding="10dp"
+            android:singleLine="true"
+            android:textColor="@color/colorBlack"
+            android:textColorHint="#90000000" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Door, Floor and Building Number"
+            android:layout_marginTop="16dp"
+            android:layout_marginLeft="10dp"/>
+        <EditText
+            android:id="@+id/house_number_ET"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/white_solid_rounded_bg"
+            android:drawablePadding="10dp"
+            android:inputType="textPersonName"
+            android:padding="10dp"
+            android:singleLine="true"
+            android:textColor="@color/colorBlack"
+            android:textColorHint="#90000000" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Landmark"
+            android:layout_marginTop="16dp"
+            android:layout_marginLeft="10dp"/>
+        <EditText
+            android:id="@+id/landmark_ET"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/white_solid_rounded_bg"
+            android:drawablePadding="10dp"
+            android:inputType="textPersonName"
+            android:padding="10dp"
+            android:singleLine="true"
+            android:textColor="@color/colorBlack"
+            android:textColorHint="#90000000" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Pincode"
+            android:layout_marginTop="16dp"
+            android:layout_marginLeft="10dp"/>
+        <EditText
+            android:id="@+id/zip_ET"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/white_solid_rounded_bg"
+            android:drawablePadding="10dp"
+            android:inputType="number"
+            android:padding="10dp"
+            android:maxLength="6"
+            android:singleLine="true"
+            android:textColor="@color/colorBlack"
+            android:textColorHint="#90000000" />
+
+
+    </LinearLayout>
+</ScrollView>

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="@dimen/activity_horizontal_margin">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:padding="@dimen/activity_horizontal_margin">
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:src="@drawable/default_user"/>
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/activity_horizontal_margin"
+        android:orientation="vertical">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+                android:text="David Jhon"/>
+            <RatingBar
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:theme="@style/AppThemeRatingBar"
+                android:layout_gravity="center_vertical"
+                android:numStars="5"
+                style="@style/Base.Widget.AppCompat.RatingBar.Small"
+                android:rating="3.5"
+                android:stepSize="1" />
+        </LinearLayout>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="2 hours ago"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Small"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:maxLines="4"
+            android:layout_marginTop="@dimen/activity_horizontal_margin"
+            android:text="skjdfh hdfg hdfkjhgkdfj hgkjdfh gkjhdf kgjhfdkj gdfkjgh dfkjh gdfkjh gdfkjh grygh retgyeuiryeitre uire trere tre tre rere re er gitreu gvkdf jhgkjdfhgkjhdfh dfg df gdfh gdfg dhfgkjhd fkjghdfkjhg dfkjhg"/>
+    </LinearLayout>
+</LinearLayout>
+</androidx.cardview.widget.CardView>

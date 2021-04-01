@@ -1,0 +1,228 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorLightShadow"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior">
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Tiffin Box"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+        android:textStyle="bold"
+        android:padding ="@dimen/activity_horizontal_margin"
+        android:background="@color/colorWhite" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Tiffin by Vijay Chat House is a one-stop solution for all your ‘Ghar Ka Khana’ cravings. The days of eating boring junk food and waiting in line for purchasing groceries at the supermarket are over. After all, who wants to come home after a day of hard work and cook dinner?
+
+So, why not get freshly made food delivered to your doorsteps every day? Our chefs prepare simple yet quality meals using only locally sourced ingredients to provide you with a dine-in experience that is not only tasty, but also healthy. Have a look at our meal plans or call us for more details on +91 9826028587"
+        android:padding ="@dimen/activity_horizontal_margin"
+        android:background="@color/colorWhite" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="How to order my Tiffin?"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+        android:textStyle="bold"
+        android:padding ="@dimen/activity_horizontal_margin"
+        android:background="@color/colorWhite" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/first_bullet"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:background="@color/colorWhite" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/second_bullet"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:background="@color/colorWhite" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/third_bullet"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:background="@color/colorWhite" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/forth_bullet"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingBottom="@dimen/activity_horizontal_margin"
+        android:background="@color/colorWhite" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/colorPrimary"
+        android:layout_marginLeft="@dimen/activity_horizontal_margin"
+        android:layout_marginRight="@dimen/activity_horizontal_margin"
+        android:paddingLeft="5dp"
+        android:paddingRight="5dp"
+        android:paddingTop="5dp"
+        android:paddingBottom="5dp"
+        android:text="Order Now"
+        android:textStyle="bold"
+        android:textSize="17dp"
+        android:textAlignment="center"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Please Select Meal plan "
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingTop="5dp" />
+
+    <TextView
+        android:id="@+id/select_meal_plan_TV"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Select meal plan"
+        android:padding="8dp"
+        android:drawableRight="@drawable/ic_arrow_down_shadow"
+        android:layout_marginLeft="@dimen/activity_horizontal_margin"
+        android:layout_marginRight="@dimen/activity_horizontal_margin"
+        android:background="@color/colorWhite" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Please Select number of days required "
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingTop="@dimen/activity_horizontal_margin" />
+
+    <TextView
+        android:id="@+id/select_no_days_TV"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Select number of days"
+        android:padding="8dp"
+        android:drawableRight="@drawable/ic_arrow_down_shadow"
+        android:layout_marginLeft="@dimen/activity_horizontal_margin"
+        android:layout_marginRight="@dimen/activity_horizontal_margin"
+        android:background="@color/colorWhite" />
+
+    <TextView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="Please mention Lunch or dinner or both "
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_horizontal_margin" />
+
+    <TextView
+        android:id="@+id/type_TV"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Select "
+        android:padding="8dp"
+        android:drawableRight="@drawable/ic_arrow_down_shadow"
+        android:layout_marginLeft="@dimen/activity_horizontal_margin"
+        android:layout_marginRight="@dimen/activity_horizontal_margin"
+        android:background="@color/colorWhite" />
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Total Amount"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingTop="@dimen/activity_horizontal_margin" />
+
+
+    <TextView
+        android:id="@+id/amount_TV"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Rs: 0/-"
+        android:padding="8dp"
+        android:layout_marginLeft="@dimen/activity_horizontal_margin"
+        android:layout_marginRight="@dimen/activity_horizontal_margin"
+        android:background="@color/colorWhite" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Select Address"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingTop="@dimen/activity_horizontal_margin" />
+
+    <RadioGroup
+        android:id="@+id/radiogroup"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_margin="@dimen/activity_horizontal_margin"
+        android:padding="@dimen/activity_horizontal_margin"
+        android:background="@color/colorWhite"/>
+
+
+    <RadioGroup
+        android:id="@+id/payment_RG"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_margin="@dimen/activity_horizontal_margin"
+        android:background="@color/colorWhite">
+        <RadioButton
+            android:id="@+id/c_o_d_RB"
+            android:layout_width="0dp"
+            android:layout_weight=".5"
+            android:checked="true"
+            android:layout_height="wrap_content"
+            android:text="Cash on delivery"
+            />
+        <RadioButton
+            android:id="@+id/online_payment_RB"
+            android:layout_width="0dp"
+            android:layout_weight=".5"
+            android:layout_height="wrap_content"
+            android:text="online"
+            />
+    </RadioGroup>
+
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal">
+    <CheckBox
+        android:id="@+id/policy_CB"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/activity_horizontal_margin"
+        android:text="I agree with VCH "/>
+<TextView
+    android:id="@+id/policy_Tv"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:textColor="#3B8CD7"
+    android:text="Policies"/>
+</LinearLayout>
+
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/submit_BT"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="32dp"
+        android:layout_marginRight="32dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="?attr/actionBarSize"
+        android:background="@drawable/primary_solid_rounded_bg"
+        android:text="Submit"
+        android:textColor="@color/colorWhite" />
+</LinearLayout>
+
+</androidx.core.widget.NestedScrollView>

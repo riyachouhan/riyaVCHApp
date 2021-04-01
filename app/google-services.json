@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "882812970669",
+    "firebase_url": "https://hungry-bird-c7fa2.firebaseio.com",
+    "project_id": "hungry-bird-c7fa2",
+    "storage_bucket": "hungry-bird-c7fa2.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:882812970669:android:e53783e53883c448",
+        "android_client_info": {
+          "package_name": "com.vch"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "882812970669-apv7m8bq3u49l1q0h5aqotnk7oelmp1r.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.vch",
+            "certificate_hash": "72410c24ee9ffca9908a26b2441799f882033e64"
+          }
+        },
+        {
+          "client_id": "882812970669-s9e67ji63l1jd56b0n252bfog220e61u.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBUBFprbAzTMzyBYuNXRfstyCq0n8ZTBgo"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "882812970669-s9e67ji63l1jd56b0n252bfog220e61u.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

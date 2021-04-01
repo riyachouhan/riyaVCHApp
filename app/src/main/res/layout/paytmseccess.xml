@@ -1,0 +1,80 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_margin="@dimen/dimen_10dp"
+        android:paddingBottom="30dp"
+        android:padding="@dimen/dimen_10dp">
+
+        <ImageView
+            android:layout_marginTop="40dp"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_gravity="center_horizontal"
+            android:gravity="center_horizontal"
+            android:src="@drawable/right_icon_scan"
+            android:tint="@color/colorPrimary"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="40dp"
+            android:layout_marginStart="8dp"
+            android:text="Payment Send Successfully"
+            android:gravity="center"
+            android:lineSpacingExtra="4dp"
+            android:textColor="@color/black"
+            android:textSize="22sp"
+            android:id="@+id/hintform"/>
+
+        <TextView
+            android:id="@+id/btnVerify"
+            android:layout_width="200dp"
+            android:layout_height="40dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="30dp"
+            android:background="@drawable/button_accent_round"
+            android:gravity="center"
+            android:text="Go To Home"
+            android:layout_marginBottom="30dp"
+            android:textColor="@color/black"/>
+
+        <LinearLayout
+            android:id="@+id/deliver_now_LL"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/colorWhite"
+                android:gravity="center"
+                android:padding="10dp"
+                android:singleLine="true"
+                android:text="Your order will be delivered within"
+                android:textColor="@color/colorBlack" />
+
+            <TextView
+                style="@style/Base.TextAppearance.AppCompat.Large"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/colorWhite"
+                android:gravity="center"
+                android:layout_marginTop="-5dp"
+                android:padding="10dp"
+                android:singleLine="true"
+                android:text="45 Minutes"
+                android:textColor="@color/colorBlack" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+</RelativeLayout>
